@@ -1,23 +1,23 @@
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
-using CSAbpCrud.Application.Contracts.Dto.Shared;
-using CSAbpCrud.Application.Contracts.Enums;
+using CSAbpInfra.Application.Contracts.Dto.Shared;
+using CSAbpInfra.Application.Contracts.Enums;
 using Volo.Abp;
 using Volo.Abp.Application.Services;
 using Volo.Abp.DependencyInjection;
 
-namespace CSAbpCrud.Application.Services
+namespace CSAbpInfra.Application.Services
 {
     /// <summary>
-    /// UtilitiesAppService
+    /// CSAbpInfraAppService
     /// Created By : Mahmoud Radwan
     /// Created On : 28-01-2023
     /// </summary>
-    public class UtilitiesAppService : ApplicationService , ISingletonDependency
+    public class AbpInfraAppService : ApplicationService , ISingletonDependency
     {
         private readonly IServiceProvider _serviceProvider;
 
-        public UtilitiesAppService(IServiceProvider serviceProvider)
+        public AbpInfraAppService(IServiceProvider serviceProvider)
         {
             _serviceProvider = serviceProvider;
         }

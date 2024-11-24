@@ -1,6 +1,6 @@
 using Volo.Abp.Application.Dtos;
 
-namespace CSAbpCrud.Application.Contracts.Dto.Shared;
+namespace CSAbpInfra.Application.Contracts.Dto.Shared;
 
 public class EntityLiteDto : EntityDto<Guid>
 {

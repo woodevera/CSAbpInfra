@@ -4,6 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>CSAbpInfra.Application</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -16,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\CSAbpCrud.Application.Contracts\CSAbpCrud.Application.Contracts.csproj" />
+        <ProjectReference Include="..\CSAbpInfra.Application.Contracts\CSAbpInfra.Application.Contracts.csproj" />
     </ItemGroup>
 
 </Project>

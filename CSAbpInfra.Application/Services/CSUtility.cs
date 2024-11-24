@@ -1,4 +1,4 @@
-namespace CSAbpCrud.Application.Services;
+namespace CSAbpInfra.Application.Services;
 
 public static class CSUtility
 {

@@ -1,6 +1,6 @@
-using CSAbpCrud.Application.Contracts.Enums;
+using CSAbpInfra.Application.Contracts.Enums;
 
-namespace CSAbpCrud.Application.Contracts.Dto.Shared
+namespace CSAbpInfra.Application.Contracts.Dto.Shared
 {
     public class FieldSignatureDto
     {

@@ -2,13 +2,13 @@
 using Volo.Abp.Authorization;
 using Volo.Abp.Modularity;
 
-namespace CSAbpCrud.Application.Contracts
+namespace CSAbpInfra.Application.Contracts
 {
     [DependsOn(
         typeof(AbpDddApplicationContractsModule),
         typeof(AbpAuthorizationModule)
     )]
-    public class CSAbpCrudApplicationContractsModule : AbpModule
+    public class CSAbpInfraApplicationContractsModule : AbpModule
     {
 
     }

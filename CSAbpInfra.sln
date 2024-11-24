@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSAbpCrud.Application", "CSAbpCrud.Application\CSAbpCrud.Application.csproj", "{8F8A416B-C0B9-4ED4-BFC2-1468050B7D4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSAbpInfra.Application", "CSAbpInfra.Application\CSAbpInfra.Application.csproj", "{8F8A416B-C0B9-4ED4-BFC2-1468050B7D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSAbpCrud.Application.Contracts", "CSAbpCrud.Application.Contracts\CSAbpCrud.Application.Contracts.csproj", "{BF483D6E-8B6E-4527-BFFA-60C9FA419573}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSAbpInfra.Application.Contracts", "CSAbpInfra.Application.Contracts\CSAbpInfra.Application.Contracts.csproj", "{BF483D6E-8B6E-4527-BFFA-60C9FA419573}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

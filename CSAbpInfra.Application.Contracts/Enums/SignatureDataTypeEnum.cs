@@ -1,4 +1,4 @@
-namespace CSAbpCrud.Application.Contracts.Enums
+namespace CSAbpInfra.Application.Contracts.Enums
 {
     public enum SignatureDataTypeEnum
     {

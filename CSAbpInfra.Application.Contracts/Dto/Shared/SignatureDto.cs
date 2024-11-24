@@ -1,4 +1,4 @@
-namespace CSAbpCrud.Application.Contracts.Dto.Shared
+namespace CSAbpInfra.Application.Contracts.Dto.Shared
 {
     public class SignatureDto
     {
