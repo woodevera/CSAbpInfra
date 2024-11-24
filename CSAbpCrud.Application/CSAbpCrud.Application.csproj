@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.Account.Application" Version="8.3.2" />
+        <PackageReference Include="Volo.Abp.Identity.Application" Version="8.3.2" />
+        <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="8.3.2" />
+        <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="8.3.2" />
+        <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="8.3.2" />
+        <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="8.3.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\CSAbpCrud.Application.Contracts\CSAbpCrud.Application.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>
